@@ -10,6 +10,17 @@ import management from '../../assets/management.jpeg'
 import repair from '../../assets/repair.jpeg'
 import safety from '../../assets/safety.jpeg'
 import testing from '../../assets/testing.jpeg'
+import transformer from '../../assets/transformer.jpeg'
+import ct from '../../assets/ct.jpeg'
+import ht from '../../assets/ht-cables.jpeg'
+import lt from '../../assets/lt-cables.jpeg'
+import armouredCables from '../../assets/armoured-cables.jpeg'
+import fullClamp from '../../assets/full-clamp.jpeg'
+import halfClamp from '../../assets/half-clamp.jpeg'
+import meterPanels from '../../assets/meter-panels.jpeg'
+import pinInsulator from '../../assets/pin-insulator.jpeg'
+import stayWire from '../../assets/stay-wire.jpeg'
+import GOSwitch from '../../assets/switch.jpeg'
 
 export const navItems = [
     {
@@ -19,7 +30,7 @@ export const navItems = [
         label: "Services", href: "/services",
     },
     {
-        label: "Products", href: "#",
+        label: "Products", href: "/products",
     },
     {
         label: "Certifications", href: "#",
@@ -99,7 +110,6 @@ export const quickLinks = [
         text: "Certifications"
     }
 ]
-
 
 export const legalLinks = [
     {
@@ -272,9 +282,144 @@ export const serviceCategoies = [
     },
 ]
 
-export const chooseUs = [
-    {},
-    {},
-    {},
-    {}
+export const products = [
+    {
+        heading: 'Transformers (25KVA, 50KVA, 100KVA, 160KVA, 200KVA, 250KVA, 300KVA)',
+        image: transformer,
+        description: 'Our range of transformers ensures efficient power distribution and voltage regulation for various applications, enhancing system reliability and performance.',
+        features: ['High efficiency and low loss',
+            'Robust build for industrial applications',
+            'Customization options available']
+    },
+    {
+        heading: 'CT (Current Transformer) and PT (Potential Transformer)',
+        image: ct,
+        description: 'Precise and reliable transformers for measurement and protection in high-voltage systems.',
+        features: ['High accuracy and stability',
+            'Suitable for metering and protection',
+            'Compliant with international standards'
+        ]
+    },
+    {
+        heading: 'HT XLPE Cables (High Tension Cross-Linked Polyethylene)',
+        image:ht,
+        description: 'Durable and high-performance cables designed to handle high voltage with minimal loss.',
+        features: ['Excellent thermal and electrical properties',
+
+            'Resistant to chemicals and moisture',
+
+            'Available in various sizes and specifications'
+        ]
+    },
+    {
+        heading: 'LT Cables (Low Tension Cables)',
+        image:lt,
+        description: 'Reliable LT cables for efficient power distribution in residential, commercial, and industrial installations.',
+        features: ['Flame retardant and fire resistant',
+
+            'High current carrying capacity',
+
+            'Easy to install and maintain'
+        ]
+    }
+    ,
+    {
+        heading: ' GO DO Switch (Gang Operated Disconnect Switch)',
+        image: GOSwitch,
+        description: 'Ensures safe isolation of electrical circuits during maintenance.',
+        features: ['High mechanical endurance',
+
+            'Suitable for outdoor installations',
+
+            'Reliable performance under harsh conditions']
+    }
+    ,
+    {
+        heading: 'Meter Panels',
+        image: meterPanels,
+        description: 'Precision-engineered panels for accurate power monitoring and billing.',
+        features: [
+            ' Modular and customizable designs',
+
+            'Built -in surge protection',
+
+            'Easy - to - read display and robust construction'
+
+        ]
+    }
+    ,
+    {
+        heading: 'Armoured Cables (95mm, 100mm, 160mm, 195mm)',
+        image: armouredCables,
+        description: 'Heavy-duty cables with protective armor for high-risk environments.',
+        features: ['Enhanced protection against mechanical damage',
+
+            'Suitable for underground installations',
+
+            'High insulation resistance']
+    }
+    ,
+    {
+        heading: 'Pin Insulator',
+        image: pinInsulator,
+        description: 'Pin insulators are used in power distribution to support and isolate conductors on poles. They are essential for ensuring safety and efficient transmission.',
+        features: ['High-quality porcelain or polymer for durability.',
+
+            'Suitable for medium to high-voltage applications.',
+
+            'Ribbed surface to prevent flashovers.',
+
+            'Easy to mount on poles and towers.',
+
+            'Complies with IEC and IS standards.']
+    }
+    ,
+    {
+        heading: 'Stay Wire',
+        image: stayWire,
+        description: 'Stay wires provide additional support to poles and structures, ensuring stability against environmental factors like wind and weight of conductors.',
+        features: [
+            'Galvanized steel for rust resistance.',
+
+            'High tensile capacity for stable support.',
+
+            'Available in various diameters and lengths.',
+
+            'Hot-dip galvanized for enhanced protection.',
+            'Used for pole reinforcement in overhead lines.'
+
+        ]
+    }
+    ,
+    {
+        heading: 'Half Clamp',
+        image: halfClamp,
+        description: 'Used to secure cables to poles or walls, providing stability and preventing movement.',
+        features: ['Galvanized steel for corrosion resistance.',
+
+            'Semi-circular shape for easy cable securing.',
+
+            'Ideal for supporting stay wires and conductors.',
+
+            'Resistant to wear and environmental factors.',
+
+            'Available in multiple sizes for different cables.'
+        ]
+    }
+    ,
+    {
+        heading: 'Full Clamp',
+        image: fullClamp,
+        description: 'Offers a more secure grip compared to half clamps, used for heavier cables and applications.',
+        features: ['Heavy-duty galvanized steel.',
+
+            'Complete circular grip for maximum hold.',
+            
+             'Used for securing cables and stay wires on poles.',
+            
+             'Corrosion-resistant coating.',
+            
+             'Available for various cable sizes and types.'
+            ]
+    }
 ]
