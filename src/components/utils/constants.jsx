@@ -32,11 +32,9 @@ export const navItems = [
     {
         label: "Products", href: "/products",
     },
+   
     {
-        label: "Certifications", href: "#",
-    },
-    {
-        label: "Contact Us", href: "#",
+        label: "Contact Us", href: "/contact",
     }
 ]
 
@@ -106,8 +104,8 @@ export const quickLinks = [
         text: "Services"
     },
     {
-        href: "#",
-        text: "Certifications"
+        href: "/produts",
+        text: "Products"
     }
 ]
 
